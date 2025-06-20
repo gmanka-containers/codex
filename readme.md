@@ -9,7 +9,7 @@ podman run -it quay.io/gmanka/codex
 ### mount cwd to container
 
 ```sh
-podman run -it --workdir=/app --volume $PWD:/app:z quay.io/gmanka/codex codex
+podman run -it --workdir=/app --volume=$PWD:/app:z quay.io/gmanka/codex codex
 ```
 
 ### openrouter
